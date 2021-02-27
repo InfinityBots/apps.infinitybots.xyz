@@ -1,8 +1,8 @@
 {
-  "name": "BasicReaxtForm",
-  "description": "Gatsby default starter",
+  "name": "apps.infinitybots.xyz",
+  "description": "Application Site for Infinity Bot List ",
   "version": "1.0.0",
-  "author": "Toxic Dev",
+  "author": "TheRealToxicDev",
   "dependencies": {
     "gatsby": "^1.9.261",
     "gatsby-link": "^1.0.1",
