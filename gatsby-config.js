@@ -1,7 +1,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `ToxicFX Forms`
+    title: `Infinity Bots Forms`
   },
   plugins: [`gatsby-plugin-react-helmet`]
 };
