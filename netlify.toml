@@ -1,0 +1,6 @@
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://elated-engelbart-d75e84.netlify.app/*"
+  to = "https://apps.infinitybots.xyz/:splat"
+  status = 301
+  force = true
