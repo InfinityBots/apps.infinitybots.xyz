@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    background-color: #496D8F;
+    background-color: #16151C;
     @apply text-white;
     -ms-overflow-style: none;
     scrollbar-width: none;
