@@ -1,16 +1,16 @@
 /*Typography*/
-body { background-color: #0A122A; font-family: "Karla", sans-serif; }
+body { background-color: #496D8F; font-family: "Karla", sans-serif; }
 
 h1, h2, h3, h4, h5 { font-family: "Rubik", sans-serif; }
 
 /* Color Swaps */
-.bg-lightest-blue { background-color: #0A122A; }
-.bg-blue { background-color: #0A122A; }
-.bg-dmod-light-blue { background-color: #0D193A; }
+.bg-lightest-blue { background-color: #496D8F; }
+.bg-blue { background-color: #496D8F; }
+.bg-dmod-light-blue { background-color: #496D8F; }
 .bg-transparent { background-color: transparent; }
-.blue { color: #0A122A; }
-.navy { color: #0A122A; }
-.bg-dmod-purple { color: #370091 }
+.blue { color: #496D8F; }
+.navy { color: #496D8F; }
+.bg-dmod-purple { color: #496D8F }
 
 .white { color: white; }
 
