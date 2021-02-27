@@ -5,7 +5,7 @@ import Helmet from "react-helmet"
 
 import Navbar from 'react-bootstrap/Navbar'
 
-import logo from 'https://images-ext-1.discordapp.net/external/rw_Bu3MBfmLr5wy_mZjv0uRTXR-k1s-e5h9eQdAZA_4/https/cdn.discordapp.com/icons/758641373074423808/835e5251e11a32f8c0acd58287eb43da.webp'
+import logo from '../images/2B373E69-003D-4854-BD99-1F4AFED98133.png'
 
 import "../css/typography.css"
 
