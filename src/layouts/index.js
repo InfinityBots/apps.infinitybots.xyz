@@ -5,7 +5,7 @@ import Helmet from "react-helmet"
 
 import Navbar from 'react-bootstrap/Navbar'
 
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import logo from 'https://images-ext-1.discordapp.net/external/rw_Bu3MBfmLr5wy_mZjv0uRTXR-k1s-e5h9eQdAZA_4/https/cdn.discordapp.com/icons/758641373074423808/835e5251e11a32f8c0acd58287eb43da.webp'
 
 import "../css/typography.css"
 
@@ -18,16 +18,15 @@ export default class Template extends React.Component {
     return (
       <div>
         <Helmet
-          title="ToxicFX Forms"
+          title="Infinity Bots Applications"
           meta={[
             { name: "description", content: "Interested in Apllying for the Team, Reporting a bug or anything else of that nature? You can do so here." },
-            { name: "keywords", content: "sample, something" },
-            { property: "og:image", href: "https://toxicfx.org/images/TFX-Transparent.png" },
+            { name: "keywords", content: "infinitybots, top.gg" },
           ]}
         />   
         <div
           style={{
-            background: `#0A122A`,
+            background: `#16151D `,
             marginBottom: `1.45rem`,
           }}
         >
@@ -38,6 +37,7 @@ export default class Template extends React.Component {
               padding: `1.45rem 1.0875rem`,
             }}
           >
+          <img src={logo} alt="Logo"/>
             <h1 style={{ margin: 0 }}>
               <Link
                 to="/"
@@ -46,7 +46,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-                ToxicFX Forms
+                Infinity Bots
               </Link>
             </h1>
           </div>
