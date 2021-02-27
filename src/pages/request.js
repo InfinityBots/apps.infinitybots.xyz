@@ -37,7 +37,7 @@ export default class Contact extends React.Component {
       <div>
         <h1 style={{ color: 'white' }}>Feature Requests</h1>
         <form
-          name="request"
+          name="appeal"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -54,20 +54,14 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord Username | Ex: ToxicDev#0001:<br />
+              Your Discord Username and Tag| Ex: ToxicDev#0001:<br />
               <input type="text" style={{ width: '75%' }} name="name" onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Provide a link or email where we can contact you if we need to! Can be a Discord Server, Twitter etc:<br />
-              <input type="contact" style={{ width: '75%' }} style={{ width: '75%' }} name="email" onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-              Describe what you want to request! Be as detailed as possible!:<br />
-              <textarea name="message" style={{ width: '75%' }} style={{ width: '75%' }} onChange={this.handleChange} />
+              Your Discord User ID:<br />
+              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="email" onChange={this.handleChange} />
             </label>
           </p>
           <p>
