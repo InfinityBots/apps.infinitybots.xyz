@@ -35,7 +35,6 @@ export default class Template extends React.Component {
               padding: `1.45rem 1.0875rem`,
             }}
           >
-          <img src={logo} alt="Logo"/>
             <h1 style={{ margin: 0 }}>
               <Link
                 to="/"
