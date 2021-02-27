@@ -3,8 +3,6 @@ import PropTypes from "prop-types"
 import Link from "gatsby-link"
 import Helmet from "react-helmet"
 
-import Navbar from 'react-bootstrap/Navbar'
-
 import logo from '../images/2B373E69-003D-4854-BD99-1F4AFED98133.png'
 
 import "../css/typography.css"
