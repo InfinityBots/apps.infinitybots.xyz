@@ -35,7 +35,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>Feature Requests</h1>
+        <h1 style={{ color: 'white' }}>Ban Appeals</h1>
         <form
           name="appeal"
           method="post"
