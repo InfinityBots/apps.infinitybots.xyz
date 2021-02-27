@@ -60,56 +60,14 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Position you're Applying for? | Staff or Team/Dev:<br />
+              Your Discord ID (For the Panel):<br />
               <textarea name="position" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Do you have any Development Experience? If yes explain.:<br />
+              Do you have any experience in Moderation / Testing Bots? If so please provide some proof:<br />
               <textarea name="experience" style={{ width: '75%' }} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-              Do you have any experience as a Server Admin or Moderator? If yes explain.:<br />
-              <textarea name="servexperience" style={{ width: '75%' }} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-              How long have you been a Member of the FiveM Community?:<br />
-              <textarea name="years" style={{ width: '75%' }} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-             Have you owned your own FiveM Server?:<br />
-              <textarea name="communityowner" style={{ width: '75%' }} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-             Please explain how you would deal with someone Nuking or Raiding the Discord Server:<br />
-              <textarea name="raiding" style={{ width: '75%' }} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-             Have you read and agree to our rules?:<br />
-              <textarea name="rules" style={{ width: '75%' }} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-             As per the Discord TOS are you 13 or older?:<br />
-              <textarea name="age" style={{ width: '75%' }} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p style={{ color: 'white' }}>
-            <label>
-             Provide a link or email where we can contact you if we need to! Can be a Discord Server, Twitter etc:<br />
-              <textarea name="contact" style={{ width: '75%' }} onChange={this.handleChange} />
             </label>
           </p>
           <p>
