@@ -7,8 +7,6 @@ import logo from '../images/2B373E69-003D-4854-BD99-1F4AFED98133.png'
 
 import "../css/typography.css"
 
-import { NavigationBar } from '../components/NavigationBar';
-
 export default class Template extends React.Component {
   static propTypes = {
     children: PropTypes.func,
@@ -24,7 +22,6 @@ export default class Template extends React.Component {
             { name: "keywords", content: "infinitybots, top.gg" },
           ]}
         />
-        <NavigationBar />
         <div
           style={{
             background: `#16151D `,
