@@ -1,0 +1,31 @@
+
+.nav {
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  /*margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;*/
+  
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.nav a.active {
+  color: white;
+}
+
+.nav-right {
+  float: right;
+}

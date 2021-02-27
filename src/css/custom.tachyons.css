@@ -1,0 +1,23 @@
+/*Typography*/
+body { background-color: #0A122A; font-family: "Karla", sans-serif; }
+
+h1, h2, h3, h4, h5 { font-family: "Rubik", sans-serif; }
+
+/* Color Swaps */
+.bg-lightest-blue { background-color: #0A122A; }
+.bg-blue { background-color: #0A122A; }
+.bg-dmod-light-blue { background-color: #0D193A; }
+.bg-transparent { background-color: transparent; }
+.blue { color: #0A122A; }
+.navy { color: #0A122A; }
+.bg-dmod-purple { color: #370091 }
+
+.white { color: white; }
+
+/* Gradients */
+.bg-gradient-blue {
+  background-image: linear-gradient(to bottom, #370091, #0A122A)
+}
+.bg-gradient-white {
+  background-image: linear-gradient(to bottom, #370091, #0A122A)
+}
