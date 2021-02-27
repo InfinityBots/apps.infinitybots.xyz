@@ -24,7 +24,7 @@ export default class Template extends React.Component {
         />
         <div
           style={{
-            background: `#16151D `,
+            background: `#8A6AFD `,
             marginBottom: `1.45rem`,
           }}
         >
