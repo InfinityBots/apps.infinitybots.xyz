@@ -64,6 +64,18 @@ export default class Contact extends React.Component {
               <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="Discord User ID" onChange={this.handleChange} />
             </label>
           </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              State the reason you were banned:<br />
+              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="Reason for Ban" onChange={this.handleChange} />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              State the reason your appeal:<br />
+              <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="Reason for Appeal" onChange={this.handleChange} />
+            </label>
+          </p>
           <p>
             <button type="submit">Send</button>
           </p>
