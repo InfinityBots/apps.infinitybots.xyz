@@ -8,6 +8,9 @@ Base React App for the Infinity Bots Application Site.
 ---
 
 ## Self Hosting
-• We will NOT help you self host this site, it is open source for our contributors.
+• We will NOT help you self host this site, it is open source for our contributors. HOWEVER if you know react and are capable of setting this up you're more then welcome.
 
 ---
+
+## Known Bugs
+• Netlify Forms doesn't register the content of the appeals app will be fixed next update
