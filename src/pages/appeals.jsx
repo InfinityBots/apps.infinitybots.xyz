@@ -72,7 +72,7 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              State the reason your appeal:<br />
+              State the reason for your appeal:<br />
               <input type="id" style={{ width: '75%' }} style={{ width: '75%' }} name="Reason for Appeal" onChange={this.handleChange} />
             </label>
           </p>
