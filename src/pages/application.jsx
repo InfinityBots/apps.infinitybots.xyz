@@ -55,31 +55,31 @@ export default class Contact extends React.Component {
           <p style={{ color: 'white' }}>
             <label>
               Your Discord Username | Ex: ToxicDev#0001:<br />
-              <input type="text" name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} />
+              <input type="text" name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Your Discord ID (For the Panel):<br />
-              <textarea name="Discord ID" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Discord ID" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Do you have any experience in Moderation / Testing Bots? If so please explain:<br />
-              <textarea name="Do you have any experience in Moderating or Testing Bots?" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Do you have any experience in Moderating or Testing Bots?" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               How would you handle someone Nuking or Raiding the server:<br />
-              <textarea name="How would you handle a Nuke or Raid" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="How would you handle a Nuke or Raid" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Have you read and understand our Rules and Guidelines?:<br />
-              <textarea name="Agree to our Rules?" style={{ width: '75%' }} onChange={this.handleChange} />
+              <textarea name="Agree to our Rules?" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p>
