@@ -91,7 +91,7 @@ export default class Contact extends React.Component {
           <p style={{ color: 'white' }}>
             <label>
               Have you Read and Understand our <a href="https://infinitybotlist.com/legal">T.O.S</a> and Privacy Policy?:<br />
-              <textarea name="Agree Terms and Privacy" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="Agree to our Terms and Privacy" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
