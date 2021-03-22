@@ -35,9 +35,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{ color: 'white' }}>Staff Application</h1>
+        <h1 style={{ color: 'white' }}>Dev Team Application</h1>
         <form
-          name="application"
+          name="dev-application"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -60,26 +60,44 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Your Discord ID (For the Panel):<br />
-              <textarea name="Discord ID" style={{ width: '75%' }} onChange={this.handleChange} required />
+              What Coding Languages do you know Best (Javascript, Python etc):<br />
+              <textarea name="Preffered Coding Langs" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Do you have any experience in Moderation / Testing Bots? If so please explain:<br />
-              <textarea name="Do you have any experience in Moderating or Testing Bots?" style={{ width: '75%' }} onChange={this.handleChange} required />
+              Do you have any Development Experience?:<br />
+              <textarea name="Development Experience" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              How would you handle someone Nuking or Raiding the server:<br />
-              <textarea name="How would you handle a Nuke or Raid" style={{ width: '75%' }} onChange={this.handleChange} required />
+              Do you have any Experience using a Mongoose (Mongo) Database?:<br />
+              <textarea name="Experience with Mongo" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
-              Have you read and understand our Rules and Guidelines?:<br />
-              <textarea name="Agree to our Rules?" style={{ width: '75%' }} onChange={this.handleChange} required />
+              Do you have any Experience using Express and Node?:<br />
+              <textarea name="Experience with Express and Node" style={{ width: '75%' }} onChange={this.handleChange} required />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Are you Comfortable with being apart of Multiple GC or Voice Calls regarding the Develolment Progress?:<br />
+              <textarea name="Agree to Voice Call Meetings" style={{ width: '75%' }} onChange={this.handleChange} required />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Have you Read and Understand our <a href="https://infinitybotlist.com/legal">T.O.S</a> and Privacy Policy?:<br />
+              <textarea name="Agree Terms and Privacy" style={{ width: '75%' }} onChange={this.handleChange} required />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Are you Willing and Ready to sign a NDA (Non-Disclosure Agreement):<br />
+              <textarea name="Agree to Sign NDA" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
           </p>
           <p>
