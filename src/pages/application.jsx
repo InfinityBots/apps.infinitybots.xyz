@@ -78,6 +78,24 @@ export default class Contact extends React.Component {
           </p>
           <p style={{ color: 'white' }}>
             <label>
+              How would you handle someone Targetting or Harassing Members?:<br />
+              <textarea name="How would you handle Harrasment" style={{ width: '75%' }} onChange={this.handleChange} required />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              Do you agree to Sign and be Bound to our NDA (Non-Disclosure Agreement)?:<br />
+              <textarea name="Do you agree to Sign a NDA?" style={{ width: '75%' }} onChange={this.handleChange} required />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
+              What are you more interested in Approving Bots or just Moderating the Server?:<br />
+              <textarea name="Approver or Mod?" style={{ width: '75%' }} onChange={this.handleChange} required />
+            </label>
+          </p>
+          <p style={{ color: 'white' }}>
+            <label>
               Have you read and understand our Rules and Guidelines?:<br />
               <textarea name="Agree to our Rules?" style={{ width: '75%' }} onChange={this.handleChange} required />
             </label>
