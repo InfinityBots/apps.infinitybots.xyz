@@ -8,6 +8,16 @@ Base React App for the Infinity Bots Application Site. Users can use this to App
 ---
 
 ## Self Hosting
-• We will NOT help you self host this site, it is open source for our contributors. HOWEVER if you know react and are capable of setting this up you're more then welcome.
+### Windows Hosting
+* Coming Soon
+
+### Linux Hosting
+* Coming Soon
+
+### Netlify Hosting
+* Coming Soon
 
 ---
+
+## Credits
+* Made with ❤️ By [Toxic Dev](https://toxicdev.me) & the Infinity Bot List Community
