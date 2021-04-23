@@ -7,6 +7,10 @@ Base React App for the Infinity Bots [Application Site](https://apps.infinitybot
 
 ---
 
+## Screenshots
+
+---
+
 ## Self Hosting
 ### Windows Hosting
 * Coming Soon
