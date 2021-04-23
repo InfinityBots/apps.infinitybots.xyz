@@ -1,7 +1,7 @@
 {
   "name": "apps.infinitybots.xyz",
   "description": "Application Site for Infinity Bot List ",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "TheRealToxicDev",
   "dependencies": {
     "gatsby": "^1.9.261",
