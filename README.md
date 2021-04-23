@@ -3,7 +3,7 @@
 
 ----
 
-Base React App for the Infinity Bots Application Site. Users can use this to Apply for Staff, Submit a Ban Appeal and more
+Base React App for the Infinity Bots [Application Site](https://apps.infinitybots.xyz). Users can use this to Apply for Staff, Submit a Ban Appeal and more
 
 ---
 
