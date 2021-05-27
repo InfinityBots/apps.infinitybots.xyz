@@ -37,7 +37,7 @@ export default class Contact extends React.Component {
       <div>
         <h1 style={{ color: 'white' }}>Dev Team Application</h1>
         <form
-          name="dev-application"
+          name="devs"
           method="post"
           action="/thanks/"
           data-netlify="true"
