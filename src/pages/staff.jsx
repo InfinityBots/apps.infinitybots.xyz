@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
         <form
           name="staff"
           method="post"
-          action="/thanks/"
+          action="/success"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
