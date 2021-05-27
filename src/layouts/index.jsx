@@ -18,7 +18,7 @@ export default class Template extends React.Component {
         <Helmet
           title="Infinity Bots Applications"
           meta={[
-            { name: "description", content: "Interested in Apllying for the Team, Reporting a bug or anything else of that nature? You can do so here." },
+            { name: "description", content: "Interested in joining the Infinity Bot List Staff or Development Team? Fill out an application here." },
             { name: "keywords", content: "infinitybots, top.gg" },
           ]}
         />
