@@ -62,53 +62,53 @@ export default class Contact extends React.Component {
           <p style={{ color: 'white' }}>
             <label>
               Your Discord Username | Ex: ToxicDev#0001:<br />
-              <input type="text" name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <input type="text" name="Discord Username" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Your Discord ID (For the Panel):<br />
-              <textarea name="Discord ID" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="Discord ID" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Do you have any experience in Moderation / Testing Bots? If so please explain:<br />
-              <textarea name="Do you have any experience in Moderating or Testing Bots?" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="Do you have any experience in Moderating or Testing Bots?" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               How would you handle someone Nuking or Raiding the server:<br />
-              <textarea name="How would you handle a Nuke or Raid" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="How would you handle a Nuke or Raid" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               How would you handle someone Targetting or Harassing Members?:<br />
-              <textarea name="How would you handle Harrasment" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="How would you handle Harrasment" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Do you agree to Sign and be Bound to our NDA (Non-Disclosure Agreement)?:<br />
-              <textarea name="Do you agree to Sign a NDA?" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="Do you agree to Sign a NDA?" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               What are you more interested in Approving Bots or just Moderating the Server?:<br />
-              <textarea name="Approver or Mod?" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="Approver or Mod?" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p style={{ color: 'white' }}>
             <label>
               Have you read and understand our Rules and Guidelines?:<br />
-              <textarea name="Agree to our Rules?" style={{ width: '75%' }} onChange={this.handleChange} required />
+              <textarea name="Agree to our Rules?" style={{ width: '75%' }} onChange={this.handleChange} disabled />
             </label>
           </p>
           <p>
-            <button type="submit">Send</button>
+            <button type="submit" disabled>Send</button>
           </p>
         </form>
       </div>
