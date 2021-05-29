@@ -23,6 +23,18 @@ body { background-color: #16151C; font-family: "Karla", sans-serif; }
     margin-bottom: 20px;
   }
 }
+
+.staff_apps_card {
+  border-radius: 10px;
+  box-shadow: 1px 1px 25px #888888;
+  width: 75%;
+  height: 75%;
+  padding: 20px 10px;
+  background-color: rgb(117, 138, 207);
+  color: rgb(117, 138, 207);
+  animation: fadeIn 1s;
+  text-align: left;
+}
 .alert {
   padding: 20px;
   background-color: #f44336;
