@@ -44,6 +44,13 @@ export default class Contact extends React.Component {
           data-netlify-honeypot="bot-field"
           onSubmit={this.handleSubmit}
         >
+     <div class="staff_apps_card">
+       <h2> Application Status:</h2>
+       <hr>
+       <div class="alert">
+         <strong>Staff Applications are Currently Closed, Thank you everyone who applied!</strong>.
+       </div>
+       <br />
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="Application" />
           <p hidden>
