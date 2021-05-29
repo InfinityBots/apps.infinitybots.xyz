@@ -622,3 +622,41 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.column {
+  float: center;
+  width: 25%;
+  padding: 0 10px;
+}
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.staff_apps_card {
+  border-radius: 10px;
+  box-shadow: 1px 1px 25px #888888;
+  width: 75%;
+  height: 75%;
+  padding: 20px 10px;
+  background-color: rgb(117, 138, 207);
+  color: rgb(117, 138, 207);
+  animation: fadeIn 1s;
+  text-align: left;
+}
+.alert {
+  padding: 20px;
+  background-color: #e82024;
+  color: white;
+}
