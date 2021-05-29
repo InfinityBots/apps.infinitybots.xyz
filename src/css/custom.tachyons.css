@@ -1,6 +1,34 @@
 /*Typography*/
 body { background-color: #16151C; font-family: "Karla", sans-serif; }
 
+
+.column {
+  float: center;
+  width: 25%;
+  padding: 0 10px;
+}
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
 h1, h2, h3, h4, h5 { font-family: "Rubik", sans-serif; }
 
 /* Color Swaps */
