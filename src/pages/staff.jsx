@@ -101,7 +101,7 @@ import React from "react";
              </label>
            </p>
            <p>
-             <button type="submit" disabled>Send</button>
+             <button type="submit">Send</button>
            </p>
          </form>
        </div>
