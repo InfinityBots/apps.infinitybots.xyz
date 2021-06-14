@@ -52,13 +52,6 @@ import React from "react";
                <input name="bot-field" onChange={this.handleChange} />
              </label>
            </p>
-           <div class="staff_apps_card">
-            <h2> Application Status:</h2>
-           <hr />
-           <div class="alert">
-            <strong>Staff Applications are Currently Closed, Thank you everyone who applied!</strong>.
-           </div>
-           <br />
            <p style={{ color: 'white' }}>
              <label>
                Your Discord Username | Ex: ToxicDev#0001:<br />
